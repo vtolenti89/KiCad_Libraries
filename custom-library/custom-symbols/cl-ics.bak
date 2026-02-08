@@ -22,7 +22,7 @@
 				)
 			)
 		)
-		(property "Footprint" "custom-footprints:W-DFN3030-14_3x3x0.8_0.4"
+		(property "Footprint" "Ics:W-DFN3030-14_3x3x0.8_0.4"
 			(at 0 0 0)
 			(effects
 				(font
