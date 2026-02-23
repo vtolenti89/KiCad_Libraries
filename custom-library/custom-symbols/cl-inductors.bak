@@ -2,7 +2,7 @@
 	(version 20241209)
 	(generator "kicad_symbol_editor")
 	(generator_version "9.0")
-	(symbol "4.7uF 50V"
+	(symbol "33uH 1.5A"
 		(pin_numbers
 			(hide yes)
 		)
@@ -13,8 +13,17 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "C?"
-			(at 0.254 1.778 0)
+		(property "Reference" "L"
+			(at 0.254 2.286 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "33uH"
+			(at -2.032 -2.286 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22,16 +31,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7uF 50V"
-			(at 0.254 -2.032 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+		(property "Footprint" "cl-inductors:VLS6045EX_6.0X6.0X4.5"
 			(at 0 0 0)
 			(effects
 				(font
@@ -40,7 +40,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/658/CL31B475KBHNFNE_Spec.pdf"
+		(property "Datasheet" "https://product.tdk.com/en/system/files/dam/doc/product/inductor/inductor/smd/catalog/inductor_commercial_power_vls6045ex_en.pdf"
 			(at 0 0 0)
 			(effects
 				(font
@@ -49,7 +49,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "Inductor, small symbol"
 			(at 0 0 0)
 			(effects
 				(font
@@ -58,7 +58,7 @@
 				(hide yes)
 			)
 		)
-		(property "Partnumber" "CL31B475KBHNFNE"
+		(property "Partnumber" "VLS6045EX-330M"
 			(at 0 0 0)
 			(effects
 				(font
@@ -67,7 +67,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "capacitor cap"
+		(property "ki_keywords" "inductor choke coil reactor magnetic"
 			(at 0 0 0)
 			(effects
 				(font
@@ -76,7 +76,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "C_*"
+		(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -85,25 +85,49 @@
 				(hide yes)
 			)
 		)
-		(symbol "4.7uF 50V_0_1"
-			(polyline
-				(pts
-					(xy -1.524 0.508) (xy 1.524 0.508)
-				)
+		(symbol "33uH 1.5A_0_1"
+			(arc
+				(start -2.032 0)
+				(mid -1.524 0.5058)
+				(end -1.016 0)
 				(stroke
-					(width 0.3048)
+					(width 0)
 					(type default)
 				)
 				(fill
 					(type none)
 				)
 			)
-			(polyline
-				(pts
-					(xy -1.524 -0.508) (xy 1.524 -0.508)
-				)
+			(arc
+				(start -1.016 0)
+				(mid -0.508 0.5058)
+				(end 0 0)
 				(stroke
-					(width 0.3302)
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 0)
+				(mid 0.508 0.5058)
+				(end 1.016 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 1.016 0)
+				(mid 1.524 0.5058)
+				(end 2.032 0)
+				(stroke
+					(width 0)
 					(type default)
 				)
 				(fill
@@ -111,10 +135,10 @@
 				)
 			)
 		)
-		(symbol "4.7uF 50V_1_1"
+		(symbol "33uH 1.5A_1_1"
 			(pin passive line
-				(at 0 2.54 270)
-				(length 2.032)
+				(at -2.54 0 0)
+				(length 0.508)
 				(name "~"
 					(effects
 						(font
@@ -131,8 +155,8 @@
 				)
 			)
 			(pin passive line
-				(at 0 -2.54 90)
-				(length 2.032)
+				(at 2.54 0 180)
+				(length 0.508)
 				(name "~"
 					(effects
 						(font
