@@ -251,9 +251,6 @@
 		(embedded_fonts no)
 	)
 	(symbol "TPD1E10B06DYAR"
-		(pin_numbers
-			(hide yes)
-		)
 		(pin_names
 			(hide yes)
 		)
