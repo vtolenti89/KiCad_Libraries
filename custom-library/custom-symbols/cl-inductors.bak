@@ -22,7 +22,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "33uH"
+		(property "Value" "33uH 1.5A"
 			(at -2.032 -2.286 0)
 			(effects
 				(font

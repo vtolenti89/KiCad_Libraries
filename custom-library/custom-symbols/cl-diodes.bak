@@ -279,7 +279,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-323_SC-70"
+		(property "Footprint" "cl-diodes:D2PAK-3_15X10X4.4_5.08"
 			(at 1.905 3.175 0)
 			(effects
 				(font
