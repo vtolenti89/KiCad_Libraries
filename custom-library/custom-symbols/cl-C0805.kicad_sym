@@ -22,7 +22,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF 16V"
+		(property "Value" "10uF"
 			(at 0.254 -2.032 0)
 			(effects
 				(font
@@ -65,6 +65,15 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Voltage" "16V"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(property "ki_keywords" "capacitor cap"
@@ -329,7 +338,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7uF 35V"
+		(property "Value" "4.7uF"
 			(at 0.254 -2.032 0)
 			(effects
 				(font
@@ -372,6 +381,15 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Voltage" "35V"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(property "ki_keywords" "capacitor cap"

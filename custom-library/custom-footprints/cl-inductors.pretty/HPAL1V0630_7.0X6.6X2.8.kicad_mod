@@ -1,12 +1,12 @@
-(footprint "SRP1265A_13.5X12.5X6.2"
+(footprint "HPAL1V0630_7.0X6.6X2.8"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "Custom inductor from TDK")
+	(descr "Custom inductor from Bourns")
 	(tags "custom inductor")
 	(property "Reference" "REF**"
-		(at 0.4 -8 0)
+		(at 0.4 -4.65 0)
 		(layer "F.SilkS")
 		(uuid "cace2386-afc7-46a9-9aa4-e04e4cd3a87b")
 		(effects
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "SRP1265A_13.5X12.5X6.2"
+	(property "Value" "HPAL1V0630_7.0X6.6X2.8"
 		(at 0 4.2 0)
 		(layer "F.Fab")
 		(uuid "97a46720-6d09-4058-a46f-d81127e14a66")
@@ -53,8 +53,8 @@
 	)
 	(attr smd)
 	(fp_line
-		(start -6.75 6.25)
-		(end 6.75 6.25)
+		(start -4.2 3.3)
+		(end 4.2 3.3)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -63,8 +63,8 @@
 		(uuid "3307cecc-e0cf-4de9-a1b8-ac92c1245ada")
 	)
 	(fp_line
-		(start 6.75 -6.25)
-		(end -6.75 -6.25)
+		(start 4.2 -3.3)
+		(end -4.2 -3.3)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -73,8 +73,8 @@
 		(uuid "30f612c0-43ff-4ec9-b933-49cf4699a0c8")
 	)
 	(fp_rect
-		(start -7.4 -6.55)
-		(end 7.3 6.65)
+		(start -4.55 -3.6)
+		(end 4.45 3.55)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -84,8 +84,8 @@
 		(uuid "a2f47d23-d458-4641-9152-403fcfdd45e6")
 	)
 	(fp_rect
-		(start -6.75 -6.25)
-		(end 6.75 6.25)
+		(start -4.25 -3.3)
+		(end 4.2 3.3)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -106,19 +106,19 @@
 		)
 	)
 	(pad "1" smd rect
-		(at -5.55 0 90)
-		(size 5 3.1)
+		(at -3.025 0 90)
+		(size 3.5 2.35)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "0118e610-186b-4e3e-be8e-74f1371f5ba0")
 	)
 	(pad "2" smd rect
-		(at 5.55 0)
-		(size 3.1 5)
+		(at 3.025 0)
+		(size 2.35 3.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "e2910034-b289-4a86-b3d6-7510fc9162ea")
 	)
 	(embedded_fonts no)
-	(model "C:/Users/victo/Documents/01-Projects/02-Electronics/SmartPSU/KiCad_Libraries/custom-library/3D_Models/SRP1265A.STEP"
+	(model "C:/Users/victo/Documents/01-Projects/02-Electronics/SmartPSU/KiCad_Libraries/custom-library/3D_Models/HCM0703-R.STEP"
 		(offset
 			(xyz 0 0 0)
 		)
