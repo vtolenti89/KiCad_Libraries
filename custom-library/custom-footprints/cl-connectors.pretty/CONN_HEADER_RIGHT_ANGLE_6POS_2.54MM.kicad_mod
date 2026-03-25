@@ -16,7 +16,7 @@
 		)
 	)
 	(property "Value" "CONN_HEADER_RIGHT_ANGLE_6POS_2.54MM"
-		(at 4.08 4.52 0)
+		(at 6.65 11.825 0)
 		(layer "F.Fab")
 		(uuid "b740635b-cfa9-441b-ae60-25363ec8ab31")
 		(effects
@@ -52,16 +52,6 @@
 	)
 	(attr through_hole)
 	(fp_line
-		(start -1.3 10.1)
-		(end -0.8 10.1)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "f67a155d-58db-4c25-8eac-1670015cc516")
-	)
-	(fp_line
 		(start -1.27 -1.27)
 		(end -1.27 -0.75)
 		(stroke
@@ -92,8 +82,58 @@
 		(uuid "573e9864-7c59-4e35-ba62-1b565d258075")
 	)
 	(fp_line
+		(start -1.27 10.1)
+		(end -0.77 10.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f67a155d-58db-4c25-8eac-1670015cc516")
+	)
+	(fp_line
+		(start 13.475 10.1)
+		(end 13.975 10.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5e47fccb-8d5c-4ec0-b865-8fcf350a9534")
+	)
+	(fp_line
+		(start 13.49 -1.275)
+		(end 13.97 -1.275)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9a984343-39b4-494a-8932-7ae8873f61c8")
+	)
+	(fp_line
+		(start 13.97 -1.26)
+		(end 13.97 -0.74)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "68ebb0f9-d678-4725-b696-521c84b8f7d2")
+	)
+	(fp_line
+		(start 13.975 10.1)
+		(end 13.975 9.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ab1eda47-8c6b-4cbb-ba9b-5bb98fe8946f")
+	)
+	(fp_line
 		(start -1.45 -1.5)
-		(end -1.45 3.42)
+		(end -1.45 10.3)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -113,7 +153,7 @@
 	)
 	(fp_line
 		(start 14.15 -1.5)
-		(end 14.15 3.42)
+		(end 14.15 10.3)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -122,8 +162,8 @@
 		(uuid "0f65f3c5-9390-4e17-b462-cbf8ae6ba8dd")
 	)
 	(fp_line
-		(start 14.15 3.42)
-		(end -1.45 3.42)
+		(start 14.15 10.3)
+		(end -1.45 10.3)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -143,7 +183,7 @@
 	)
 	(fp_line
 		(start -1.27 -1.25)
-		(end -1.27 3.17)
+		(end -1.27 10.1)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -163,7 +203,7 @@
 	)
 	(fp_line
 		(start 13.97 -1.27)
-		(end 13.97 3.17)
+		(end 13.97 10.1)
 		(stroke
 			(width 0.1)
 			(type solid)
