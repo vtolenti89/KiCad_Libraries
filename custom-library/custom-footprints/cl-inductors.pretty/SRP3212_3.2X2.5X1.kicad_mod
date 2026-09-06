@@ -1,0 +1,132 @@
+(footprint "SRP3212_3.2X2.5X1"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Power Inductor from Bourns, SRP3212 Series")
+	(property "Reference" "REF**"
+		(at 0.4 -2.4 0)
+		(layer "F.SilkS")
+		(uuid "f104547b-a7ed-4990-bd54-9f1102ede0ea")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SRP3212_3.2X2.5X1"
+		(at 0.6 2.8 0)
+		(layer "F.Fab")
+		(uuid "fff874e9-bd9d-4cc1-ab81-d96c70483a84")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/srp3212.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9940dcb5-19ad-497a-b478-32e8e9373ed1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Power Inductor from Bourns, SRP3212 Series"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7cd2fbe9-af9f-4972-ae9a-e539dfb15efb")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -0.6 -1.25)
+		(end 0.6 -1.25)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "21605cc9-4a02-42f8-be2d-59d3fa83222b")
+	)
+	(fp_line
+		(start -0.6 1.25)
+		(end 0.6 1.25)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "98b19279-8927-4ca6-83ce-ea77f6863c0c")
+	)
+	(fp_rect
+		(start -2.45 -1.6)
+		(end 2.4 1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "25971bc8-ef4e-41f8-91a1-5bf5cea627e5")
+	)
+	(fp_rect
+		(start -1.6 -1.25)
+		(end 1.6 1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "2baab0f8-8e43-4c7c-8d28-78a19bac0bb2")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "b2c3429b-2548-4b3f-9a0a-326399aef51d")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.06)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.45 0 90)
+		(size 2.8 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e442ad47-c350-4441-805e-cfe5b4dab88e")
+	)
+	(pad "2" smd rect
+		(at 1.45 0 90)
+		(size 2.8 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b1ba52f8-98c1-44f3-a536-01a6772d1ef6")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/vtolen/Documents/03_Private/Kid_Audio_Player/Electronics/KiCad_Libraries/custom-library/3D_Models/SRP3212.stp"
+		(offset
+			(xyz 0 0 0.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)

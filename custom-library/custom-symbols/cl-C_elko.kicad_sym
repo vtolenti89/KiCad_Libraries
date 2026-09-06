@@ -2,11 +2,12 @@
 	(version 20251024)
 	(generator "kicad_symbol_editor")
 	(generator_version "10.0")
-	(symbol "0R"
+	(symbol "150uF 10V"
 		(pin_numbers
 			(hide yes)
 		)
 		(pin_names
+			(offset 0.254)
 			(hide yes)
 		)
 		(exclude_from_sim no)
@@ -14,39 +15,30 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
-		(property "Reference" "R?"
-			(at 0 2.032 0)
+		(property "Reference" "C"
+			(at 0.254 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "0R"
-			(at 0 -2.032 0)
+		(property "Value" "150uF"
+			(at 2.032 0 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
-			(at 4.064 -6.35 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
-			(at 3.556 -8.382 0)
+		(property "Footprint" "cl-capacitors:CAP_ELEC_765_6.6x6.6"
+			(at 0.254 -4.572 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -56,7 +48,50 @@
 				)
 			)
 		)
-		(property "Description" "RES SMD 0 OHM JUMPER 1/2W"
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/KEM_A4070_A765"
+			(at 0 4.064 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CAP ALUM POLY 150UF 20% 10V SMD"
+			(at 0 -5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Partnumber" "A765EB157M1ALAE022"
+			(at 0.254 4.064 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "10V"
+			(at 4.064 -2.032 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "C_*"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -67,45 +102,25 @@
 				)
 			)
 		)
-		(property "Partnumber" "CRCW12100000Z0EA"
-			(at -0.508 -4.318 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
+		(symbol "150uF 10V_0_1"
+			(polyline
+				(pts
+					(xy -1.524 0.508) (xy 1.524 0.508)
 				)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power" "1/2W"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(symbol "0R_0_1"
-			(rectangle
-				(start -1.778 0.762)
-				(end 1.778 -0.762)
 				(stroke
-					(width 0.2032)
+					(width 0.3048)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -1.524 -0.762)
+				(mid 0 -0.3734)
+				(end 1.524 -0.762)
+				(stroke
+					(width 0.3048)
 					(type default)
 				)
 				(fill
@@ -113,10 +128,10 @@
 				)
 			)
 		)
-		(symbol "0R_1_1"
+		(symbol "150uF 10V_1_1"
 			(pin passive line
-				(at 2.54 0 180)
-				(length 0.762)
+				(at 0 2.54 270)
+				(length 2.032)
 				(name ""
 					(effects
 						(font
@@ -133,8 +148,8 @@
 				)
 			)
 			(pin passive line
-				(at -2.54 0 0)
-				(length 0.762)
+				(at 0 -2.54 90)
+				(length 2.032)
 				(name ""
 					(effects
 						(font
