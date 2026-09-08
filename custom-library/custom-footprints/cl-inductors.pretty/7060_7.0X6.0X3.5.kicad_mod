@@ -1,0 +1,235 @@
+(footprint "7060_7.0X6.0X3.5"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "CMC from Würth, 7060 series")
+	(property "Reference" "REF**"
+		(at 0 -4.25 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "406e762a-6803-4e24-b0ae-e5ab29955db7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "7060_7.0X6.0X3.5"
+		(at 0 4.25 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8ef876a0-0099-4582-8c74-a5597ff20ec3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.we-online.com/components/products/datasheet/744238301.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3c349355-e7b7-407e-be63-d7b188d4242b")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "CMC from Würth, 7060 series"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "68a7da6c-fd7e-422d-ba63-f3c88bb756c1")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -3.61 0)
+		(end -3.61 0.39)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c4b85785-4edc-4058-9c61-956ea28dabf5")
+	)
+	(fp_line
+		(start -3.61 3.11)
+		(end -3.61 2.61)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7c243498-1b3d-402e-b2d2-fd2cd8180c06")
+	)
+	(fp_line
+		(start -3.61 3.11)
+		(end 3.61 3.11)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "dfaa2d0e-2a31-474a-ae49-000d7840ed7c")
+	)
+	(fp_line
+		(start 0 -3.11)
+		(end 3.61 -3.11)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5ada5e99-3a5c-4ccf-9b7a-8821d1d9a35e")
+	)
+	(fp_line
+		(start 3.61 -3.11)
+		(end 3.61 -2.61)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "04ced2d9-2e88-4a3d-959d-61db748765d7")
+	)
+	(fp_line
+		(start 3.61 -0.39)
+		(end 3.61 0.39)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1a574687-f4a1-473c-999d-81bccba012dd")
+	)
+	(fp_line
+		(start 3.61 3.11)
+		(end 3.61 2.61)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f780f72c-50bf-40ed-bff9-f51ea9be7736")
+	)
+	(fp_rect
+		(start -4.75 -3.25)
+		(end 4.75 3.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "b15354c1-c130-4c01-8a14-5d522441df37")
+	)
+	(fp_line
+		(start -3.5 -1.5)
+		(end -3.5 3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "37f80042-152c-445d-9430-979930a0b85d")
+	)
+	(fp_line
+		(start -3.5 3)
+		(end 3.5 3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "20ae9027-e7a0-4164-953e-e303bd9f05db")
+	)
+	(fp_line
+		(start -2 -3)
+		(end -3.5 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ceef60c0-7d63-40e5-9666-63a2c6344666")
+	)
+	(fp_line
+		(start 3.5 -3)
+		(end -2 -3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a8bbc738-5b44-4b3e-9a0d-6cf124cc30c4")
+	)
+	(fp_line
+		(start 3.5 3)
+		(end 3.5 -3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f8b32894-63b2-448a-8f0b-101063baa861")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "493731ad-131f-4682-a297-53796845b270")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.075)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -3.25 -1.5)
+		(size 2.5 1.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "317d6e0c-f19a-41fd-a3bc-42ffd787bfe4")
+	)
+	(pad "2" smd rect
+		(at 3.25 -1.5)
+		(size 2.5 1.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "0453e69a-314f-4e56-90bf-5dda93088f25")
+	)
+	(pad "3" smd rect
+		(at -3.25 1.5)
+		(size 2.5 1.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "ccaf6c5d-cd0a-463b-a15c-ced197113eca")
+	)
+	(pad "4" smd rect
+		(at 3.25 1.5)
+		(size 2.5 1.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "ddc74a5e-128b-453f-a7ba-51ad34d81174")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/vtolen/Documents/03_Private/Kid_Audio_Player/Electronics/KiCad_Libraries/custom-library/3D_Models/L_Wurth_WE-CMDC-7060.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
