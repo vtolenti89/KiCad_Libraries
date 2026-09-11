@@ -7,7 +7,7 @@
 	(property "Reference" "REF**"
 		(at 0.4 -2.4 0)
 		(layer "F.SilkS")
-		(uuid "f104547b-a7ed-4990-bd54-9f1102ede0ea")
+		(uuid "af0533ed-dca4-4c69-a615-e3aee6fb0670")
 		(effects
 			(font
 				(size 1 1)
@@ -18,7 +18,7 @@
 	(property "Value" "SRP3212_3.2X2.5X1"
 		(at 0.6 2.8 0)
 		(layer "F.Fab")
-		(uuid "fff874e9-bd9d-4cc1-ab81-d96c70483a84")
+		(uuid "56bff670-3bd2-4896-bc34-6ac7ada2ec46")
 		(effects
 			(font
 				(size 1 1)
@@ -30,7 +30,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "9940dcb5-19ad-497a-b478-32e8e9373ed1")
+		(uuid "57dcf451-6269-43b9-848a-984744ad906c")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -42,7 +42,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "7cd2fbe9-af9f-4972-ae9a-e539dfb15efb")
+		(uuid "b4d474fa-c788-4147-b344-7278aa0ada64")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -53,24 +53,24 @@
 	(attr smd)
 	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
-		(start -0.6 -1.25)
-		(end 0.6 -1.25)
+		(start -0.4 -1.25)
+		(end 0.4 -1.25)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "21605cc9-4a02-42f8-be2d-59d3fa83222b")
+		(uuid "542316b3-ed3c-4f0a-a83c-8406a1ae6499")
 	)
 	(fp_line
-		(start -0.6 1.25)
-		(end 0.6 1.25)
+		(start -0.4 1.25)
+		(end 0.4 1.25)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "98b19279-8927-4ca6-83ce-ea77f6863c0c")
+		(uuid "16cbd3e8-f7b3-4a82-bfbd-a1e087b2587c")
 	)
 	(fp_rect
 		(start -2.45 -1.6)
@@ -81,7 +81,7 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "25971bc8-ef4e-41f8-91a1-5bf5cea627e5")
+		(uuid "36849e28-445b-4662-8c15-1baa461e7f5a")
 	)
 	(fp_rect
 		(start -1.6 -1.25)
@@ -92,12 +92,12 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "2baab0f8-8e43-4c7c-8d28-78a19bac0bb2")
+		(uuid "aec2ffd7-6b4f-4c7c-be9c-cf354d742bd5")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(layer "F.Fab")
-		(uuid "b2c3429b-2548-4b3f-9a0a-326399aef51d")
+		(uuid "90323b69-3de6-4211-ad2f-44dc14e4b074")
 		(effects
 			(font
 				(size 0.4 0.4)
@@ -106,16 +106,16 @@
 		)
 	)
 	(pad "1" smd rect
-		(at -1.45 0 90)
+		(at -1.35 0 90)
 		(size 2.8 1.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "e442ad47-c350-4441-805e-cfe5b4dab88e")
+		(uuid "0007d942-c39b-4073-81f8-1ddba0515989")
 	)
 	(pad "2" smd rect
-		(at 1.45 0 90)
+		(at 1.35 0 90)
 		(size 2.8 1.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "b1ba52f8-98c1-44f3-a536-01a6772d1ef6")
+		(uuid "c0ea9852-ec23-47d0-9ebe-8e3f054fae97")
 	)
 	(embedded_fonts no)
 	(model "C:/Users/vtolen/Documents/03_Private/Kid_Audio_Player/Electronics/KiCad_Libraries/custom-library/3D_Models/SRP3212.stp"
