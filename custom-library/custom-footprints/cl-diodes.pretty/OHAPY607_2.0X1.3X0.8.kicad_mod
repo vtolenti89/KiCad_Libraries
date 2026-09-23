@@ -1,0 +1,292 @@
+(footprint "OHAPY607_2.0X1.3X0.8"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.45 -2.1 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "cee4e26b-e7d3-4d8a-a2a6-ee4bdec9a004")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "OHAPY607_2.0X1.3X0.8"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "fc3efa1c-0dda-4b80-b819-6558581fc19f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://look.ams-osram.com/m/2da6f2ceeebf8fac/original/LG-R971.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "055dcae9-a9b8-4646-a0bd-5bb4c64dd03b")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "OHAPY607 OSRAM recommended"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5df47441-430f-4eb5-b6a5-ef840fce1900")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -0.250519 0.65)
+		(end 0.250519 0.65)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f34e15c3-edab-48be-8d1f-28e5ddd6ffe9")
+	)
+	(fp_line
+		(start 0.250519 -0.65)
+		(end -0.250519 -0.65)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "040a4bdd-b34b-43dc-bf0a-ebc83a7891c0")
+	)
+	(fp_circle
+		(center -2.4931 0)
+		(end -2.4169 0)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "3581d1ad-29b4-4bbf-9b6c-8b0102ddcc64")
+	)
+	(fp_line
+		(start -1.95 -0.9)
+		(end 1.9 -0.9)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "69277096-43b9-4591-b755-1a711012f90a")
+	)
+	(fp_line
+		(start -1.95 0.9)
+		(end -1.95 -0.9)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "161dd80d-4ddb-4eff-b83b-35d977314472")
+	)
+	(fp_line
+		(start 1.9 -0.9)
+		(end 1.9 0.9)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ba8295a8-4101-4b75-96f4-1c13336c3b67")
+	)
+	(fp_line
+		(start 1.9 0.9)
+		(end -1.95 0.9)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2eaeaaeb-a395-4e2f-aeac-b4222339f5e4")
+	)
+	(fp_line
+		(start -1.0541 -0.65)
+		(end -1.0541 0.65)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "804a6a17-3a98-4c61-bec7-ad81a315b8a8")
+	)
+	(fp_line
+		(start -1.0541 -0.6223)
+		(end -1.0541 -0.6223)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cc7cb54f-a846-4918-a98e-9013ac6f188b")
+	)
+	(fp_line
+		(start -1.0541 -0.6223)
+		(end -1.0541 0.6223)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2aab41ab-f386-425e-aa14-9328bc795bf1")
+	)
+	(fp_line
+		(start -1.0541 0.6223)
+		(end -1.0541 -0.6223)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "69aed554-f856-4aad-afb2-298518f2d99e")
+	)
+	(fp_line
+		(start -1.0541 0.6223)
+		(end -1.0541 0.6223)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f86643af-591b-4ad7-924d-c4fd39f52b9d")
+	)
+	(fp_line
+		(start -1.0541 0.65)
+		(end 1.0541 0.65)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ec9c27a5-0eb9-477e-889b-33c6fc515471")
+	)
+	(fp_line
+		(start 1.0541 -0.65)
+		(end -1.0541 -0.65)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a69fbea7-cc93-4151-ba81-aaec6974e486")
+	)
+	(fp_line
+		(start 1.0541 -0.6223)
+		(end 1.0541 -0.6223)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "16fd76ee-ee4a-46bb-8004-1a4dc055d725")
+	)
+	(fp_line
+		(start 1.0541 -0.6223)
+		(end 1.0541 0.6223)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "85f5ee7e-72da-48a2-b911-45cdefbabed7")
+	)
+	(fp_line
+		(start 1.0541 0.6223)
+		(end 1.0541 -0.6223)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d3996419-16cb-4c51-918d-92094bb524e8")
+	)
+	(fp_line
+		(start 1.0541 0.6223)
+		(end 1.0541 0.6223)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f3c359fe-eaeb-4a05-a06d-611e49cd6cdd")
+	)
+	(fp_line
+		(start 1.0541 0.65)
+		(end 1.0541 -0.65)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e05598ae-832f-46dd-8f6f-2a9762a0173a")
+	)
+	(fp_circle
+		(center -1.0751 0)
+		(end -0.9989 0)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "3bafe19e-0455-458f-b0cb-14a5a1b737dd")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "28d37a69-156a-4830-b4fc-cc54a3177889")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.05 0)
+		(size 1.2 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "74e4692d-c70e-4094-8ec0-b44eb70a3067")
+	)
+	(pad "2" smd rect
+		(at 1.05 0)
+		(size 1.2 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c9fe06ce-2ce2-4dad-ab4c-71624adfd501")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/vtolen/Documents/03_Private/Kid_Audio_Player/Electronics/KiCad_Libraries/custom-library/3D_Models/LED_LGR971-KN-1-0-20-R18_OSR.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

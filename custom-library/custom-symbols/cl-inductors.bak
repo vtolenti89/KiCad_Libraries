@@ -610,7 +610,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "cl-inductors:BMMA_6.86X6.47X3"
+		(property "Footprint" "cl-inductors:SRP3212_3.2X2.5X1"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1151,7 +1151,7 @@
 			)
 		)
 		(property "Value" "33uH 1.5A"
-			(at -2.032 -2.286 0)
+			(at -4.826 -2.286 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

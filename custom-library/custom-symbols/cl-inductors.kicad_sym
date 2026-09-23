@@ -1151,7 +1151,7 @@
 			)
 		)
 		(property "Value" "33uH 1.5A"
-			(at -2.032 -2.286 0)
+			(at -4.826 -2.286 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
