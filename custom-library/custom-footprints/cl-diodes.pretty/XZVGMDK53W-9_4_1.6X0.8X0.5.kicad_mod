@@ -1,0 +1,226 @@
+(footprint "XZVGMDK53W-9_4_1.6X0.8X0.5"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.705565 -2.036615 0)
+		(layer "F.SilkS")
+		(uuid "16d8d1d4-63a9-483e-88f5-b54061b90980")
+		(effects
+			(font
+				(size 1.000795 1.000795)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "XZVGMDK53W-9_4_1.6X0.8X0.5"
+		(at 1 2.05 0)
+		(layer "F.Fab")
+		(uuid "3a718607-1047-4ec7-b523-6884fc9cad3c")
+		(effects
+			(font
+				(size 1.000291 1.000291)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a53d1039-5ef8-47d9-a5aa-9534a5ff729d")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6bba20a9-b1c7-443d-8219-fa077ccca0d2")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -0.18 -0.4)
+		(end 0.18 -0.4)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6e8466d1-1e11-4e30-8b4e-8b92410cd89d")
+	)
+	(fp_line
+		(start -0.17 0.4)
+		(end 0.17 0.4)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a1491097-e90d-4ee6-94f8-7a96a6fe506f")
+	)
+	(fp_circle
+		(center 1.273 0.273)
+		(end 1.313 0.273)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "eb0c109d-33f4-48be-9984-d8719fc8e1a8")
+	)
+	(fp_line
+		(start -1.1 -0.8)
+		(end 1.1 -0.8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f9cc0f57-d7ac-4b69-b0f0-e2f81032ed2b")
+	)
+	(fp_line
+		(start -1.1 0.8)
+		(end -1.1 -0.8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "88e60a09-4e31-4cae-99c8-cf57865f8509")
+	)
+	(fp_line
+		(start 1.1 -0.8)
+		(end 1.1 0.8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3ebe3662-cd9c-4afa-a576-6f9048cd710c")
+	)
+	(fp_line
+		(start 1.1 0.8)
+		(end -1.1 0.8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0686de1c-aa90-4891-a12e-33299308ec55")
+	)
+	(fp_line
+		(start -0.8 -0.4)
+		(end 0.8 -0.4)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2b1c0af5-0480-4635-9137-a9d57dc16e39")
+	)
+	(fp_line
+		(start -0.8 0.4)
+		(end -0.8 -0.4)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c2a4d7c4-2a72-4feb-b934-aca5ea94b6ad")
+	)
+	(fp_line
+		(start 0.8 -0.4)
+		(end 0.8 0.4)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2113f268-5565-4697-a99a-90adb28676d3")
+	)
+	(fp_line
+		(start 0.8 0.4)
+		(end -0.8 0.4)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "678a6eef-f62c-4a20-bdeb-48e4304fea05")
+	)
+	(fp_circle
+		(center 0.511 0.146)
+		(end 0.551 0.146)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "b5c6e067-3012-42aa-8682-d580b48441b8")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "84d47110-d842-4651-b95d-46547602d612")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 0.6 0.35)
+		(size 0.5 0.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "04de154d-8f44-4472-8d75-dfe904dfb950")
+	)
+	(pad "2" smd rect
+		(at -0.6 0.35)
+		(size 0.5 0.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "9cecaa94-9352-44a3-9faa-6fdbdf34c182")
+	)
+	(pad "3" smd rect
+		(at 0.6 -0.35)
+		(size 0.5 0.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "2ee51853-fe82-47fd-93be-ff9853d90950")
+	)
+	(pad "4" smd rect
+		(at -0.6 -0.35)
+		(size 0.5 0.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "6d279d1a-1164-4edf-bff2-8837290eda5c")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/vtolen/Documents/03_Private/Kid_Audio_Player/Electronics/KiCad_Libraries/custom-library/3D_Models/XZxxxx53W-9.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

@@ -1,0 +1,149 @@
+(footprint "LPF-C012303S_17.53X11.75X4.5"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 2 -6.05 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "c152a4d0-c268-4137-b3d5-2c8b114955a1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "LPF-C012303S_17.53X11.75X4.5"
+		(at 0 14.6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "8729c85c-19e1-4cab-aa91-37f0496ba992")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://look.ams-osram.com/m/2da6f2ceeebf8fac/original/LG-R971.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d82f1a32-b3fe-4c10-a8d9-6e0421634776")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "OHAPY607 OSRAM recommended"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1ecb72b2-4ed5-465c-84f6-4ee660aa073e")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start 0 -4.62)
+		(end 4.39 -3.02)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "f242beb0-b917-47df-9546-6f17209d633a")
+	)
+	(fp_rect
+		(start 0 3)
+		(end 4.39 4.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "3fddaa27-976a-4302-adf4-0f817b1d91ce")
+	)
+	(fp_rect
+		(start -0.815 -4.82)
+		(end 3.685 12.71)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "571b955b-e28d-4b4b-9d11-e9465a03c158")
+	)
+	(fp_rect
+		(start 0 -4.62)
+		(end 4.39 -3.02)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "c92245ef-4b9a-4432-8d1f-47756c46b414")
+	)
+	(fp_rect
+		(start 0 3)
+		(end 4.39 4.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "b4a4a707-94e1-43a0-8a30-7359c66b6f01")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -1.1 10.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "009fad51-90f7-477f-bd17-07be65a70b73")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at 0 -1.27)
+		(size 1.5 1.5)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(thermal_bridge_angle 90)
+		(uuid "c2540911-822e-48f7-abba-26ccb8e3795e")
+	)
+	(pad "" np_thru_hole circle
+		(at 0 1.27)
+		(size 1.5 1.5)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(thermal_bridge_angle 90)
+		(uuid "f111e04f-e34f-45b4-bcd0-7b377eff2252")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/vtolen/Documents/03_Private/Kid_Audio_Player/Electronics/KiCad_Libraries/custom-library/3D_Models/LPF-C012303S.stp"
+		(offset
+			(xyz 2.25 4.8 1.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 90)
+		)
+	)
+)
