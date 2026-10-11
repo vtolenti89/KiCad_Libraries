@@ -4317,7 +4317,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-553"
+		(property "Footprint" "cl-ics:DRL0005A_5_1.2X1.6X0.6"
 			(at 5.08 5.08 0)
 			(show_name no)
 			(do_not_autoplace no)
