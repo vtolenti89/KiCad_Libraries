@@ -70,7 +70,7 @@
 				)
 			)
 		)
-		(property "Partnumber" "CL21B106KOQNNNE"
+		(property "MPN" "CL21B106KOQNNNE"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -248,7 +248,7 @@
 				)
 			)
 		)
-		(property "Partnumber" "CL21B105KBFNNNE"
+		(property "MPN" "CL21B105KBFNNNE"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -426,7 +426,7 @@
 				)
 			)
 		)
-		(property "Partnumber" "CL21A226KOQNNNE"
+		(property "MPN" "CL21A226KOQNNNE"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -604,7 +604,7 @@
 				)
 			)
 		)
-		(property "Partnumber" "GRM21BZ7YA475KE15K"
+		(property "MPN" "GRM21BZ7YA475KE15K"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)

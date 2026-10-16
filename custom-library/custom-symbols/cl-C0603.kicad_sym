@@ -70,7 +70,7 @@
 				)
 			)
 		)
-		(property "Partnumber" "GA0603Y104KBAAT31G"
+		(property "MPN" "GA0603Y104KBAAT31G"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -248,7 +248,7 @@
 				)
 			)
 		)
-		(property "Partnumber" "C0603C101K5RACTU"
+		(property "MPN" "C0603C101K5RACTU"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -426,7 +426,7 @@
 				)
 			)
 		)
-		(property "Partnumber" "C0603C103K5RACTU"
+		(property "MPN" "C0603C103K5RACTU"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -604,7 +604,7 @@
 				)
 			)
 		)
-		(property "Partnumber" "C0603C100K5RACTU"
+		(property "MPN" "C0603C100K5RACTU"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -782,7 +782,7 @@
 				)
 			)
 		)
-		(property "Partnumber" "C0603C120K5RACTU"
+		(property "MPN" "C0603C120K5RACTU"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -960,7 +960,7 @@
 				)
 			)
 		)
-		(property "Partnumber" "C0603C102K5RACTU"
+		(property "MPN" "C0603C102K5RACTU"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1138,7 +1138,7 @@
 				)
 			)
 		)
-		(property "Partnumber" "CL10B105KP8NNNC"
+		(property "MPN" "CL10B105KP8NNNC"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1316,7 +1316,7 @@
 				)
 			)
 		)
-		(property "Partnumber" "CL10B105KA8NNNC"
+		(property "MPN" "CL10B105KA8NNNC"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1494,7 +1494,7 @@
 				)
 			)
 		)
-		(property "Partnumber" "CL10A225KP8NNNC"
+		(property "MPN" "CL10A225KP8NNNC"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1672,7 +1672,7 @@
 				)
 			)
 		)
-		(property "Partnumber" "C0805C224K5RECTU"
+		(property "MPN" "C0805C224K5RECTU"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
